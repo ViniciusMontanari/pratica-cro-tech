@@ -14,7 +14,7 @@
     "sass": "^1.77.8",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://ViniciusMontanari.github.io/pratica-cro-tech>",
+  "homepage": "https://ViniciusMontanari.github.io/pratica-cro-tech",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
