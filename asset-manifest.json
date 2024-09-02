@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/pratica-cro-tech/static/css/main.22aa95f6.css",
+    "main.js": "/pratica-cro-tech/static/js/main.f305b50a.js",
+    "static/js/453.ed6bdf8e.chunk.js": "/pratica-cro-tech/static/js/453.ed6bdf8e.chunk.js",
+    "index.html": "/pratica-cro-tech/index.html",
+    "main.22aa95f6.css.map": "/pratica-cro-tech/static/css/main.22aa95f6.css.map",
+    "main.f305b50a.js.map": "/pratica-cro-tech/static/js/main.f305b50a.js.map",
+    "453.ed6bdf8e.chunk.js.map": "/pratica-cro-tech/static/js/453.ed6bdf8e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.22aa95f6.css",
+    "static/js/main.f305b50a.js"
+  ]
+}
