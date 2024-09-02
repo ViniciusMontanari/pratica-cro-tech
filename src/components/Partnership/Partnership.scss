@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+// Ajustes específicos para o layout mobile
+@media (max-width: 768px) {
+  .partner-list {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    overflow: hidden;
+
+    .static-partner-list {
+      display: none;
+    }
+
+    .partner {
+      width: 298px !important;
+      height: 64px;
+      padding: 5px;
+      display: flex !important;
+      flex-direction: row;
+      justify-content: start;
+      align-items: center;
+
+      img {
+        width: 308px;
+        height: 64px;
+        max-width: 100%;
+        max-height: 100%;
+      }
+    }
+
+    .partner-list-title {
+      font-family: 'Titillium Web', Arial, Helvetica, sans-serif;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 36.5px;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .slick-slide {
+      display: flex;
+      justify-content: center;
+      padding: 0 5px;
+      box-sizing: border-box;
+      min-width: 0;
+    }
+
+    .slick-track {
+      display: flex;
+      align-items: center;
+    }
+
+    .slick-list {
+      display: flex;
+      justify-content: center;
+      overflow: hidden;
+      margin: 0;
+      padding: 0;
+    }
+  }
+}
+
+// Ajustes específicos para o layout desktop
+@media (min-width: 769px) {
+  .partner-list {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 55px 20px 0;
+    margin-top: 80px;
+
+    .partner-mobile-slider {
+      display: none;
+    }
+
+    .static-partner-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 25px;
+    }
+
+    .partner-list-title {
+      font-family: 'Titillium Web', Arial, Helvetica, sans-serif;
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 48.67px;
+      text-align: center;
+      margin-bottom: 20px;
+      margin-left: 55px;
+    }
+
+    .partner {
+      width: 298px;
+      height: 64px;
+      padding: 5px;
+      display: flex;
+      flex-direction: row;
+      justify-content: start;
+      align-items: center;
+  
+      img {
+        margin-left: 20px;
+        margin-right: 5px;
+      }
+    }
+  }
+}
