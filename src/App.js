@@ -16,21 +16,6 @@ import NotificationBar from './components/NotificationBar/NotificationBar';
 import './App.css';
 
 function App() {
-      {/* <!-- Google tag (gtag.js) --> */}
-      useEffect(() => {
-        const script = document.createElement("script");
-        script.async = true;
-        script.src = "https://www.googletagmanager.com/gtag/js?id=G-3LLEP0RQ1V";
-        document.head.appendChild(script);
-
-        window.dataLayer = window.dataLayer || [];
-        function gtag(...args) {
-          window.dataLayer.push(args);
-        }
-
-        gtag("js", new Date());
-        gtag("config", "G-3LLEP0RQ1V");
-      }, []);
   return (
     <div className="App">
       <NotificationBar />
